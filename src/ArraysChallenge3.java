@@ -19,11 +19,12 @@ public class ArraysChallenge3 {
                case 0:
                    System.out.print(array[j] + " ");
                    break;
-           }
-           switch (divisible){
-               case 0:
-                   System.out.print(array[j] + " ");
-                   break;
+               default:
+                    switch (divisible){
+                        case 0:
+                            System.out.print(array[j] + " ");
+                            break;
+                    }
            }
            j++;
        }
